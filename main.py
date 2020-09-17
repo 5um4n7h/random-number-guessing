@@ -2,7 +2,7 @@ import random
 
 print("Number guessing game")
 
-number = random.randint(1, 9)
+number = random.randint
 
 chances = 0
 
@@ -11,10 +11,10 @@ while chances < 3:
     guess = int(input())
     chances += 1
     if guess == number:
-        print("Congratulation YOU WON!!!")
+        print("Congratulations WON!!!")
         exit(0)
     if chances < 3:
-        print("Worng!, Guess agian..")
+        print("Worng!, Guess ag.")
 
 
 print("YOU LOSE!!! The number is", number)
