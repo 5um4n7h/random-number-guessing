@@ -19,4 +19,4 @@ while chances < 3:
 
 
 print("YOU LOSE!!! The number is", number)
-
+exit(0)
